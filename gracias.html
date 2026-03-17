@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gracias | ADHARA FIT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+      ),
+      url("https://images.unsplash.com/photo-1558611848-73f7eb4001a1") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .box {
+      background: rgba(17,17,17,0.95);
+      border: 2px solid #facc15;
+      border-radius: 20px;
+      padding: 50px 35px;
+      max-width: 500px;
+      width: 100%;
+      animation: fadeUp 1s ease;
+    }
+
+    .box i {
+      font-size: 70px;
+      color: #facc15;
+      margin-bottom: 20px;
+      animation: pop 0.6s ease;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      color: #d1d5db;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      padding: 14px 35px;
+      background: #facc15;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: #fff;
+      transform: translateY(-3px);
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pop {
+      0% {
+        transform: scale(0);
+      }
+      80% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <i class="fa-solid fa-circle-check"></i>
+    <h1>¡Gracias por tu reclamo!</h1>
+    <p>
+      Hemos recibido correctamente tu información.<br>
+      Nuestro equipo de <strong>ADHARA FIT</strong> la revisará y
+      se comunicará contigo dentro del plazo establecido.
+    </p>
+
+    <a href="index.html">
+      Volver al inicio
+    </a>
+  </div>
+
+</body>
+</html>
+
